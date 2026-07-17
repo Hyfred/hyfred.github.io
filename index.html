@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hongye Liu</title>
+<meta name="description" content="Hongye Liu — PhD Candidate at Duke University. Research in NLP, Reinforcement Learning (RLHF/RLVR), LLM Agents, Model Evaluation, and Controllable Generation.">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Hongye Liu">
+<meta property="og:description" content="PhD Candidate at Duke University — NLP, RL, LLM Agents, Model Evaluation, Controllable Generation.">
+<meta property="og:type" content="website">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<!-- ===== NAV ===== -->
+<nav class="nav">
+  <div class="nav-inner">
+    <a class="nav-brand" href="#top">Hongye&nbsp;Liu</a>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#news">News</a>
+      <a href="#publications">Publications</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+    </div>
+  </div>
+</nav>
+
+<main id="top">
+
+<!-- ===== HERO ===== -->
+<header class="hero">
+  <div class="hero-grid">
+    <div class="hero-photo">
+      <img src="assets/profile.jpg" alt="Portrait of Hongye Liu"
+           onerror="this.style.display='none';this.parentNode.classList.add('is-empty');">
+      <span class="hero-initials" aria-hidden="true">HL</span>
+    </div>
+    <div class="hero-body">
+      <h1>Hongye Liu</h1>
+      <p class="tagline">PhD Candidate · Duke University</p>
+      <p class="lede">
+        I work on <strong>NLP</strong>, <strong>reinforcement learning</strong> (RLHF / RLVR),
+        <strong>LLM agents</strong>, <strong>model evaluation</strong>, and
+        <strong>controllable generation</strong>. Advised by
+        <a href="#" class="subtle">Ricardo Henao</a>. Previously a PhD student at KAUST and
+        an MSc student at Imperial College London.
+      </p>
+      <div class="links">
+        <a class="link-btn primary" href="cv.pdf" target="_blank" rel="noopener">
+          <span class="ico">&#128196;</span> Curriculum Vitae
+        </a>
+        <a class="link-btn" href="mailto:hongye.liu@duke.edu">
+          <span class="ico">&#9993;</span> Email
+        </a>
+        <a class="link-btn" href="https://github.com/Hyfred" target="_blank" rel="noopener">
+          <span class="ico">&#128187;</span> GitHub
+        </a>
+        <a class="link-btn" href="https://scholar.google.com/" target="_blank" rel="noopener">
+          <span class="ico">&#127891;</span> Scholar
+        </a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ===== ABOUT ===== -->
+<section id="about" class="section">
+  <h2>About</h2>
+  <p>
+    I am a PhD candidate at Duke University (2024&ndash;2027, expected), advised by Ricardo Henao.
+    My research centers on making large language models reason reliably over long, complex, and
+    verifiable settings &mdash; from controllable generation and evaluation calibration to
+    reinforcement learning with verifiable rewards (RLVR) and tool-augmented agents.
+  </p>
+  <p>
+    Alongside my studies I have been an Applied Scientist Intern at Amazon, and previously worked
+    in the NLP group at Tencent AI Lab and on medical-NLP pipelines at BGI. My work has appeared at
+    NAACL, ACL Findings, and EMNLP.
+  </p>
+  <ul class="tags">
+    <li>NLP</li><li>Reinforcement Learning</li><li>RLHF / RLVR</li>
+    <li>LLM Agents</li><li>Model Evaluation</li><li>Controllable Generation</li>
+  </ul>
+</section>
+
+<!-- ===== NEWS ===== -->
+<section id="news" class="section alt">
+  <h2>News</h2>
+  <ul class="news">
+    <li><span class="date">2026</span><span>Joining Amazon (Palo Alto) as an Applied Scientist Intern &mdash; memory compression via model alignment for personalized QA.</span></li>
+    <li><span class="date">2026</span><span>Two papers accepted to <strong>ACL Findings 2026</strong> on controllable summarization and evaluation-metric calibration.</span></li>
+    <li><span class="date">2025</span><span><em>Customer-Agent</em> (long-context shopping trajectories via tool-augmented agents and RLVR) is under review.</span></li>
+    <li><span class="date">2025</span><span>Applied Scientist Intern at Amazon (Seattle) &mdash; introduced the <strong>ShopTrajQA</strong> long-context benchmark.</span></li>
+    <li><span class="date">2025</span><span><em>Learning to Substitute Words with Model-based Score Ranking</em> accepted to <strong>NAACL 2025</strong> (Main).</span></li>
+  </ul>
+</section>
+
+<!-- ===== PUBLICATIONS ===== -->
+<section id="publications" class="section">
+  <h2>Selected Publications</h2>
+  <p class="muted">* denotes equal contribution. Names are ordered as they appear in each work.</p>
+
+  <ol class="pubs">
+    <li>
+      <p class="pub-title">Customer-Agent: Overcoming Context Limitations in Ultra-Long Shopping Trajectories via Tool-Augmented Agents and RLVR</p>
+      <p class="pub-authors"><strong>Hongye Liu</strong>, Rongmei Lin, et al.</p>
+      <p class="pub-venue"><span class="badge review">Under Review</span></p>
+    </li>
+    <li>
+      <p class="pub-title">Learning to Control Summaries with Score Ranking</p>
+      <p class="pub-authors"><strong>Hongye Liu</strong>, Liang Ding, Ricardo Henao</p>
+      <p class="pub-venue"><span class="badge">ACL Findings 2026</span></p>
+    </li>
+    <li>
+      <p class="pub-title">Calibrating Evaluation Metrics for QA and Summarization</p>
+      <p class="pub-authors"><strong>Hongye Liu</strong>, Dhanajit Brahma, Ricardo Henao</p>
+      <p class="pub-venue"><span class="badge">ACL Findings 2026</span></p>
+    </li>
+    <li>
+      <p class="pub-title">A Probabilistic Framework for Multimodal Open-Set Test-Time Adaptation</p>
+      <p class="pub-authors">Dhanajit Brahma, <strong>Hongye Liu</strong>, Ricardo Henao</p>
+      <p class="pub-venue"><span class="badge">Preprint</span></p>
+    </li>
+    <li>
+      <p class="pub-title">Learning to Substitute Words with Model-based Score Ranking</p>
+      <p class="pub-authors"><strong>Hongye Liu</strong>, Ricardo Henao</p>
+      <p class="pub-venue"><span class="badge">NAACL 2025 (Main)</span></p>
+    </li>
+    <li>
+      <p class="pub-title">A Benchmark for Zero Pronoun Recovery and Translation</p>
+      <p class="pub-authors">Mingzhou Xu, Longyue Wang, Derek F. Wong, <strong>Hongye Liu</strong>, Linfeng Song, Lidia S. Chao, Shuming Shi, Zhaopeng Tu</p>
+      <p class="pub-venue"><span class="badge">EMNLP 2022 (Main)</span></p>
+    </li>
+    <li>
+      <p class="pub-title">Intelligent Flaw Detection of X-ray Images Based on Deep Learning</p>
+      <p class="pub-authors">Yang Shen, <strong>Hongye Liu</strong>, et al.</p>
+      <p class="pub-venue"><span class="badge">Springer, 2021 · vol. 105, pp. 558&ndash;566</span></p>
+    </li>
+  </ol>
+
+  <details class="more">
+    <summary>Patents (4)</summary>
+    <ul class="patents">
+      <li>A Method and Device of Bilingual Data for Web Fiction Translation via Self-Training <span class="muted">(Hong Kong, 2021)</span></li>
+      <li>A Method and Device for Automatic Alignment and Automatic Translation of Web Fiction <span class="muted">(Mainland China, 2021)</span></li>
+      <li>A Method and Device of Large-scale Data Filtering for Machine Translation <span class="muted">(Mainland China, 2021)</span></li>
+      <li>A Ray Defect Detection Method based on the Mask R-CNN Model <span class="muted">(Mainland China, 2018)</span></li>
+    </ul>
+  </details>
+</section>
+
+<!-- ===== EXPERIENCE ===== -->
+<section id="experience" class="section alt">
+  <h2>Experience</h2>
+  <div class="timeline">
+    <div class="tl-item">
+      <div class="tl-when">05/2026 &ndash; 08/2026</div>
+      <div class="tl-what">
+        <h3>Applied Scientist Intern &mdash; Amazon</h3>
+        <p class="tl-meta">Palo Alto, CA · Manager: Xi Chen</p>
+        <ul>
+          <li>Compressing memory into embeddings via model alignment.</li>
+          <li>Leveraging memory for downstream personalized question answering.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-when">09/2025 &ndash; 12/2025</div>
+      <div class="tl-what">
+        <h3>Applied Scientist Intern &mdash; Amazon</h3>
+        <p class="tl-meta">Seattle, WA · Managers: Rongmei Lin, Besnik Fetahu</p>
+        <ul>
+          <li>Introduced a long-context shopping-QA benchmark (32k/64k) exposing LLM bottlenecks on long trajectories.</li>
+          <li>Proposed a Customer Agent Framework with verifiable SFT data synthesis and tool-based reasoning over externalized context files.</li>
+          <li>Demonstrated strong performance and generalization across internal and external reasoning benchmarks.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-when">09/2020 &ndash; 09/2021</div>
+      <div class="tl-what">
+        <h3>Research &amp; Engineering Intern &mdash; Tencent AI Lab (NLP Group)</h3>
+        <p class="tl-meta">Shenzhen · Supervisors: Longyue Wang, Zhaopeng Tu</p>
+        <ul>
+          <li>Web-novel translation: corpus alignment, back-translation, and NMT training pipelines; shipped a live translation engine.</li>
+          <li>Large-scale parallel-corpus filtering (N-gram + LM, Moore&ndash;Lewis selection) and zero-pronoun resolution test sets.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-when">09/2019 &ndash; 01/2020</div>
+      <div class="tl-what">
+        <h3>AI Algorithm Intern &mdash; Beijing Genomics Institute (BGI)</h3>
+        <p class="tl-meta">Shenzhen · Supervisor: Daoling Huang</p>
+        <ul>
+          <li>Built medical-record NLP pipelines: word segmentation, NER, relation extraction, and knowledge-graph querying.</li>
+          <li>Containerized and deployed models on the biological gene-AI platform.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== EDUCATION ===== -->
+<section id="education" class="section">
+  <h2>Education</h2>
+  <div class="edu">
+    <div class="edu-item">
+      <div class="edu-head">
+        <h3>Duke University</h3>
+        <span class="edu-when">09/2024 &ndash; 03/2027 (expected)</span>
+      </div>
+      <p class="edu-deg">PhD Candidate · Advisor: Ricardo Henao</p>
+      <p class="muted">Research: NLP, RL, RLHF, RLVR, agents, model evaluation, controllable generation.</p>
+    </div>
+    <div class="edu-item">
+      <div class="edu-head">
+        <h3>KAUST</h3>
+        <span class="edu-when">09/2023 &ndash; 09/2024</span>
+      </div>
+      <p class="edu-deg">PhD Student · Advisor: Ricardo Henao</p>
+    </div>
+    <div class="edu-item">
+      <div class="edu-head">
+        <h3>Imperial College London</h3>
+        <span class="edu-when">10/2021 &ndash; 10/2022</span>
+      </div>
+      <p class="edu-deg">MSc in Artificial Intelligence · Graduated with High Merit</p>
+    </div>
+    <div class="edu-item">
+      <div class="edu-head">
+        <h3>Beijing Institute of Technology, Zhuhai</h3>
+        <span class="edu-when">09/2016 &ndash; 06/2020</span>
+      </div>
+      <p class="edu-deg">BSc in Applied Statistics · GPA 3.74/5 (Top 1% &mdash; First Class Honors)</p>
+    </div>
+  </div>
+
+  <h2 class="mt">Awards</h2>
+  <ul class="awards">
+    <li>Meritorious Winner, Mathematical Contest in Modeling (MCM), 2018</li>
+    <li>2nd Prize, First China Geoscience Big Data Mining &amp; AI Challenge, 2019</li>
+    <li>3rd Prize, MathorCup University Mathematical Modeling Challenge, 2018</li>
+    <li>Outstanding Student &amp; Outstanding League Member (×3), since 2016</li>
+  </ul>
+</section>
+
+</main>
+
+<footer class="footer">
+  <p>&copy; <span id="year">2026</span> Hongye Liu · <a href="mailto:hongye.liu@duke.edu">hongye.liu@duke.edu</a></p>
+  <p class="muted">Last updated July 2026.</p>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
